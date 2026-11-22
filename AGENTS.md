@@ -28,3 +28,5 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+Product catalog data uses a browser-side client in `src/lib/supabase.ts` and shared queries in `src/lib/products.ts`; this keeps the two requested screens focused and makes the external project configuration easy to maintain.
