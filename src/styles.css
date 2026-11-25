@@ -128,3 +128,21 @@
     color: var(--color-foreground);
   }
 }
+
+@layer base {
+  html {
+    font-family: "IBM Plex Sans Thai", "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family: inherit;
+    letter-spacing: -0.01em;
+  }
+}
+
+.font-price {
+  font-variant-numeric: tabular-nums;
+}
